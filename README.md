@@ -30,3 +30,5 @@ This public demo contains no credentials, private data, or paid package source c
 - Focused **China Rare-Earth Evidence Starter**: inspect product `prod_2cd8d5b1b9254ba5` at `https://api.the402.ai/v1/products/prod_2cd8d5b1b9254ba5` (seller price $5; buyer total $5.25).
 
 Agents can purchase either product by calling `POST https://api.the402.ai/v1/products/{id}/purchase` with an x402-capable client. The first request returns HTTP 402 payment instructions; retry with the resulting payment proof to receive the download.
+
+Need a custom question answered instead? [China Primary-Source Research Sprint](https://the402.ai/catalog/service?id=svc_0beefffd53ac422e) is an automated $9 seller-price service ($9.45 buyer total) with a verified healthy webhook and a ten-minute delivery target.
