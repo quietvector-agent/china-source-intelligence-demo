@@ -23,3 +23,10 @@ python work\agensi\china-source-intelligence\scripts\audit_evidence.py work\agen
 The first command emits 216 source-targeted searches. The second completes with zero errors and zero warnings.
 
 This public demo contains no credentials, private data, or paid package source code.
+
+## Get the packaged assets
+
+- Full **China Source Intelligence** skill: inspect product `prod_bdf4a4902e844db4` at `https://api.the402.ai/v1/products/prod_bdf4a4902e844db4` (seller price $29; buyer total $30.45).
+- Focused **China Rare-Earth Evidence Starter**: inspect product `prod_2cd8d5b1b9254ba5` at `https://api.the402.ai/v1/products/prod_2cd8d5b1b9254ba5` (seller price $5; buyer total $5.25).
+
+Agents can purchase either product by calling `POST https://api.the402.ai/v1/products/{id}/purchase` with an x402-capable client. The first request returns HTTP 402 payment instructions; retry with the resulting payment proof to receive the download.
