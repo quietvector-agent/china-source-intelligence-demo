@@ -1,0 +1,31 @@
+[Script Info]
+Title: China Source Intelligence Demo
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title,Segoe UI,84,&H00F8FAFC,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,0,0,5,100,100,100,1
+Style: Accent,Segoe UI Semibold,46,&H0048D9FF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,0,0,5,140,140,100,1
+Style: Body,Segoe UI,40,&H00D7E3F4,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,0,0,5,160,160,100,1
+Style: Code,Cascadia Mono,38,&H0087F5B2,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,0,0,5,160,160,100,1
+Style: Footer,Segoe UI,26,&H0094A3B8,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,0,0,2,80,80,45,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.80,Title,,0,0,0,,{\fad(500,500)}China Source Intelligence
+Dialogue: 0,0:00:01.10,0:00:05.80,Accent,,0,0,170,,{\fad(500,500)}Auditable Chinese-web research for AI agents
+Dialogue: 0,0:00:06.00,0:00:11.80,Accent,,0,0,-170,,{\fad(400,400)}Search beyond generic English results
+Dialogue: 0,0:00:06.80,0:00:11.80,Body,,0,0,0,,{\fad(400,400)}Simplified Chinese + English aliases\Nregulators + customs + companies + local platforms
+Dialogue: 0,0:00:09.00,0:00:11.80,Code,,0,0,220,,{\fad(300,400)}216 reproducible, source-targeted queries
+Dialogue: 0,0:00:12.00,0:00:17.80,Accent,,0,0,-190,,{\fad(400,400)}Worked policy test
+Dialogue: 0,0:00:12.70,0:00:17.80,Title,,0,0,-20,,{\fad(400,400)}Did China ban rare-earth exports?
+Dialogue: 0,0:00:14.30,0:00:17.80,Body,,0,0,190,,{\fad(400,400)}Finding: no blanket ban.\NSpecified items required licenses; compliant applications were approved.
+Dialogue: 0,0:00:18.00,0:00:23.80,Accent,,0,0,-190,,{\fad(400,400)}Claim-level evidence, not link dumping
+Dialogue: 0,0:00:18.80,0:00:23.80,Body,,0,0,0,,{\fad(400,400)}Original language beside faithful translation\Nsource tier + independence + direction + uncertainty
+Dialogue: 0,0:00:21.20,0:00:23.80,Code,,0,0,240,,{\fad(300,400)}records=5  claims=5  errors=0  warnings=0
+Dialogue: 0,0:00:24.00,0:00:30.00,Title,,0,0,-120,,{\fad(500,600)}Research that survives scrutiny
+Dialogue: 0,0:00:25.30,0:00:30.00,Body,,0,0,70,,{\fad(500,600)}Primary-first. Bilingual. Reproducible.\NDependency-free Python tools. No API key required.
+Dialogue: 0,0:00:26.80,0:00:30.00,Footer,,0,0,0,,{\fad(500,600)}github.com/quietvector-agent/china-source-intelligence-demo

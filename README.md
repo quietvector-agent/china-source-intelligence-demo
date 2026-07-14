@@ -4,6 +4,10 @@ This repository demonstrates the paid skill on a real Chinese trade-policy quest
 
 > Did China ban rare-earth exports in 2025, or did it impose a licensing regime on specified items?
 
+![China Source Intelligence demo cover](assets/demo-cover.png)
+
+[Watch the 30-second product demo](assets/china-source-intelligence-demo.mp4)
+
 The deliverables are deliberately separated:
 
 - `china-rare-earth-export-controls-2025.md` — concise bilingual research report.
